@@ -99,6 +99,16 @@ footer>p{
     padding: 5Px;
 }
 
+@media screen and (max-width:600px) {
+    .pageTitle{
+        overflow: auto;
+    }
+    img{
+        width: 100%;
+        height: 50%;
+    }
+}
+
 @media screen and (max-width:1000px) {
     
     .subHeader{
@@ -111,3 +121,4 @@ footer>p{
         text-align: center;
     }
 }
+
